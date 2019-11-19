@@ -1,0 +1,31 @@
+/* 
+    Created on : 7-nov-2019, 11:28:07
+    Author     : Docent
+*/
+:root{
+    --MainPrimaryColor:     #3A3276;     /* Dark blue */
+    --ShadeOfWhite:         #84838E;     /* Lighter blue */
+    --ShadeOfBlack:         #5C5782;     /* Darker blue */
+    --ExtraShadeOfBlack:    #1D126A;     /* Blue */
+    --SecondaryColor:       #7A296A; 	/* Purple */  
+}
+
+body{
+    background: var(--MainPrimaryColor); // comments
+    color:      var(--ShadeOfWhite);
+}
+
+h1{
+    font-size: 200pt;
+}
+
+a{ /* The styling of the anchors*/
+    color:              white;  /*Text color*/
+    font-size:          14pt;   /*Text font size*/
+    text-decoration:    none;   /*Text without underlining*/
+}
+
+a:hover{ /* Styling for mouse hover */
+    background-color:   var(--MainColor);  /* Background color */
+    color:              black;  /* Text color */
+}
