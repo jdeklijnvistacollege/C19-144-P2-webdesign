@@ -29,3 +29,12 @@ a:hover{ /* Styling for mouse hover */
     background-color:   var(--MainColor);  /* Background color */
     color:              black;  /* Text color */
 }
+
+.boxmodel{
+    width:              75%;
+    background-color:   var(--ShadeOfWhite);
+    // border:             1px solid var(--ShadeOfBlack);
+    // padding:            0px;
+    // margin:             0px;
+    
+}
