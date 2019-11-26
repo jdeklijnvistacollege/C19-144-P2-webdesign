@@ -11,7 +11,7 @@
 }
 
 body{
-    background: var(--MainPrimaryColor); // comments
+    background: white; // comments
     color:      var(--ShadeOfWhite);
 }
 
@@ -30,11 +30,30 @@ a:hover{ /* Styling for mouse hover */
     color:              black;  /* Text color */
 }
 
+/* ----------- CSS classes ---------------------*/
 .boxmodel{
     width:              75%;
     background-color:   var(--ShadeOfWhite);
-    // border:             1px solid var(--ShadeOfBlack);
-    // padding:            0px;
+    // border:             10px dashed var(--ShadeOfBlack);
+    border-top:            none; /* No border line on the top */
+    border-left:           15px double var(--ShadeOfBlack); /* A double line border on the left of 15 px */
+    border-right:          15px double var(--ExtraShadeOfBlack); // A double line border on the right of 15 px */
+    border-bottom:         none; /* No border on the bottom */
+    /* padding:               50px;  Space all around the content and the border */
+    padding-top:            10px;  /* Space between the top border and the content */
+    padding-left:           100px; /* Space between the left border and the content */
     // margin:             0px;
-    
+    margin-left:            100px; /* Space between the border and the left edge of the page */    
+}
+
+.box1{
+    width:              30%;
+    height:             15%;
+    background-color:   red;
+}
+
+.box2{
+    width:              10%;
+    height:             5%;
+    background-color:   green;
 }
