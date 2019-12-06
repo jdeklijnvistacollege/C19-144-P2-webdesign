@@ -1,0 +1,37 @@
+/*
+This stylesheet is filled with content for the 
+Created on : 6-dec-2019, 11:18:57
+Author     : J. de Klijn
+*/
+
+/* ======= Styling tags creation ================= */
+:root{ }                /* Styling variables decleration */
+body{   }               /* Style an HTML element */
+.container{   }         /* Create your own styletag as a class*/
+#do_not_use { }         /* We don't use #id styletag (reserved for JS)*/
+
+/* ======= Styling elements ====================== */
+background-color:   black;  /* The background color of a content element */
+color:              white;  /* The color of the text */
+width:              15%;    /* Determ the width of an content element */
+font-size:          14pt;   /* The size of the text*/
+text-decoration:    none;   /* The style of the text */
+color:  var(--BasicColor);  /* Use the predefined variable color*/
+
+/* ========== Box model =========== Each element has an basic styling */
+border:             10px dotted red; /* The line on the outside of the content */
+padding:            15px;   /* Is the space between the border and the content */
+margin:             5%;     /* Is the space between the border and the edge of the page */
+/* Border, padding and margin all have a top, left, bottom, right */
+
+/* Test examples: 
+
+Why do we use: padding ? 
+What is the result of this styling?
+    .contentcontainer{
+        background-color: cyan;
+        color:            white;
+        width:            80%;
+    }
+
+*/

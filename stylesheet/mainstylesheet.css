@@ -1,0 +1,44 @@
+/* 
+    Mainstylesheet belonging to the template site
+    Created on : 3-dec-2019, 11:01:38
+    Author     : J. de Klijn
+*/
+
+:root{
+    --MainPrimaryColor:     #3A3276;     /* Dark blue */
+    --ShadeOfWhite:         whitesmoke;     /* Lighter blue */
+    --ShadeOfBlack:         #5C5782;     /* Darker blue */
+    --ExtraShadeOfBlack:    #1D126A;     /* Blue */
+    --SecondaryColor:       #7A296A; 	/* Purple */  
+}
+
+
+/* General styling of the template sheet */
+body{
+    background-color:   var(--MainPrimaryColor);/* Blue background*/
+    color:              var(--ShadeOfWhite);    /* Text color  is white*/
+}
+
+/* =========== Classes ====================*/
+.container{
+   width:               70%;
+   margin-left:         15%;
+   background-color:    var(--SecondaryColor); 
+}
+
+.innercontainer{
+    width:              90%;
+    margin-left:        5%;
+    margin-top:         -1%;
+    padding-top:        1%;
+    padding-left:       3%;
+    /* background-color:   var(--ShadeOfBlack); */
+}
+
+.blockContainer{
+    width:              84%;
+    margin-left:        8%;
+    padding-top:        1%;
+    padding-left:       3%;
+    /* background-color:   var(--ExtraShadeOfBlack); */
+}
